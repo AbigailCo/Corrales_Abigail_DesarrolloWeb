@@ -1,0 +1,82 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 80%;
+    max-width: 1024px;
+    background-image: url(imagenes/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1{
+    font-family: fantasy;
+    text-align: center
+}
+
+h3{
+    font-family: monospace;
+    font-size: 120%
+}
+
+:root{
+    --claro: #FAC213;
+    --radioform: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.cabecera{
+    background-color: var(--claro);
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    background-color: rgba(216, 228, 113, 0.596);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+footer{
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+form input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px;
+    border: 1px solid #FEF9A7;
+    border-radius: var(--radioform);
+    box-sizing: border-box;
+}
+
+form button {
+    width: 40%;
+    background-color: #c59511;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: var(--radioform);
+    cursor: pointer;
+}
