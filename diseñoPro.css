@@ -1,0 +1,42 @@
+:root{
+    --ch1P: #383838
+}
+:root{
+    --color: #000000
+}
+h1{
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 900;
+    text-align: center;
+    color: var(--ch1P)
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;;
+    text-align: left;
+    color: var(--ch1P)
+}
+h3{
+    font-family: 'Open Sans', sans-serif;;
+    text-align: left;
+    color: var(--color)
+}
+p{
+    font-family: 'Open Sans', sans-serif;;
+    text-align: justify;
+    font-size: 70%;
+    color: var(--color)
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;;
+    text-align: justify;
+    font-size: 70%;
+    color: var(--color)
+    
+}
+
+table{
+   margin-left: auto;
+   margin-right: auto;
+}
